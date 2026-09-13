@@ -34,6 +34,8 @@ var findNumbers = function(nums) {
     const digits = String(num).length;
     return digits % 2 === 0;
 
+
+
   });
   return even.length;
 };
